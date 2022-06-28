@@ -1,0 +1,107 @@
+@import 'style/colors.scss';
+
+.whatis {
+  background-color: white;
+}
+
+.summary-header {
+  color: white;
+  padding: 20px 50px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.what-is-header {
+  color: black;
+  padding: 20px 0 20px 0;
+  line-height: 40px;
+}
+
+.what-is-text {
+  color: black;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+.whatis .section-half {
+  padding: 0 30px;
+}
+
+.whatis ul {
+  padding-left: 25px;
+  margin-top: 0;
+}
+
+.double-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.whatis .gridWrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 10px 10px;
+}
+
+/* @media (max-width: 768px) {
+.gridWrapper {
+    display: grid;
+    grid-template-columns: none;
+}} */
+
+.gridWrapperTitle {
+  display: grid;
+  grid-template-rows: 80px;
+  padding-bottom: 50px;
+}
+
+/* @media (max-width: 768px) {
+  .gridWrapperTitle {
+      display: grid;
+      grid-template-columns: none;
+      padding-bottom: 50px;
+}} */
+
+.whatis .data-box {
+  display: flex;
+}
+
+.whatis .gridHeader {
+  background-color: $primary-dark;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  font-display: fallback;
+  font-size: 16px;
+}
+
+.span {
+  grid-column: 1 / span 2;
+}
+
+.whatis .rowHeader {
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: normal;
+  color: black;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  font-display: fallback;
+  font-size: 16px;
+}
+
+.whatis .rowText {
+  background-color: #ececec;
+  padding: 10px;
+  font-weight: 100;
+  color: grey;
+  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  font-display: fallback;
+  font-size: 16px;
+}
+
+.data-link p {
+  padding: 20px 0;
+}

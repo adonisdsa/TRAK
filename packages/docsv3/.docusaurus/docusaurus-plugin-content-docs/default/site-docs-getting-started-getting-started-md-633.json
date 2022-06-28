@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/getting-started",
+  "id": "getting-started/getting-started",
+  "isDocsHomePage": false,
+  "title": "Getting Started",
+  "description": "In this guide, you will learn how to quickly get started with the Blue Flag API.",
+  "source": "@site/docs/getting-started/getting-started.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started",
+  "permalink": "/docs/docs/getting-started",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting-started/getting-started.md",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/getting-started"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Using cURL",
+    "permalink": "/docs/docs/using-curl"
+  }
+}

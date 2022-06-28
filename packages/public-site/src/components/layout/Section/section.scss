@@ -1,0 +1,16 @@
+.section {
+    flex: 1 1 540px;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        flex: 0 0 100% !important;
+        margin: auto;
+    }
+}
+
+.section-full {
+    margin: auto;
+    flex: 0 0 100%;
+}

@@ -1,0 +1,74 @@
+@import 'style/colors.scss';
+
+.hs-form {
+
+    .hs-error-msg {
+        color: $negative;
+        font-size: 12px;
+    }
+
+    .hs-input {
+        padding: 8px 10px;
+        margin: 4px 0px;
+        border-radius: 6px;
+        border: 1px solid #cacaca;
+
+        &::placeholder {
+            color: $disabled
+        }
+    }
+
+    .hs-button {
+        color: white;
+        padding: 0.7rem 1rem;
+        font-weight: 600;
+        border-radius: 6px;
+        background-color: $primary;
+        border: 0px solid $primary;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primary-hover;
+        }
+    }
+
+    .hs-form-field {
+        text-align: center;
+        margin-bottom: 20px !important;
+        width: 450px;
+        margin: auto;
+    }
+}
+
+form {
+    padding: 0px 0px;
+
+    label {
+        color: $text-lighter;
+        font-size: 12px;
+        font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+        font-display: fallback;
+        font-weight: 700;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        display: flex;
+    }
+
+    input {
+        padding: 20px 10px;
+        margin: 3px 0px 10px 0;
+        width: 100%;
+    }
+}
+
+.submitted-message {
+    background-color: palegreen;
+    padding: 10px 15px;
+    border: 1px solid green;
+}
+
+.submitted-message p {
+    font-size: 14px;
+    line-height: 22px;
+    color: darkgreen;
+}

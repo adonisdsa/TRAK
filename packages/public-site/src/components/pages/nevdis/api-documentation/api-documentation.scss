@@ -1,0 +1,100 @@
+@import "style/colors";
+
+.NevdisApiDocumentationLegacy {
+    p {
+        margin: 20px 0px;
+    }
+
+    pre {
+        max-width: 500px;
+        padding: 0 20px;
+        margin: 20px auto;
+        overflow-x: scroll;
+    }
+
+    @media only screen and (max-device-width: 480px) {
+        pre {
+            max-width: 330px;
+        }
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+        pre {
+            max-width: 450px;
+        }
+    }
+
+
+    .caption {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .NevdisApiDocumentationLegacy-note {
+        background-color: $dark-blue-400;
+        border-left: 4px solid $light-blue-700;
+        padding: 30px;
+        margin: 50px 0px;
+        color: white;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 50px auto 0;
+
+        &.half {
+            max-width: 500px;
+        }
+
+        @media only screen and (max-device-width: 480px) {
+            &.half {
+                max-width: 330px;
+            }
+        }
+    
+        @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+            &.half {
+                max-width: 450px;
+            }
+        }
+    }
+
+    .buttonWrapper {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    .tag {
+        background-color: $gray-100;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 8px;
+        border-radius: 6px;
+        color: black;
+    }
+
+    .codeHeader {
+        padding-bottom: 30px
+    }
+
+    .noMargin {
+
+        margin: 0;
+
+        &.first {
+            position: relative;
+            top: 55px;
+        }
+
+        &.second {
+            position: relative;
+            top: 55px;
+        }
+
+        &.last {
+            position: relative;
+            top: 55px;
+            margin-bottom: 70px
+        }
+    }
+}

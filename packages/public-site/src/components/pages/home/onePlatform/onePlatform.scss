@@ -1,0 +1,94 @@
+@import 'style/colors.scss';
+
+.platformProducts {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .platformProducts {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.platformColumns {
+    max-width: 1450px !important;
+}
+
+@media screen and (max-width: 768px) {
+.platformColumns {
+    display: block;
+}}
+
+.platformAPI {
+    padding: 0 10px;
+    flex: 1 1 10%;
+
+    a {
+        color: black;
+    }
+}
+
+.platformImageWrapper {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+
+    svg {
+        width: 90%;
+        padding: 5px 0px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    p {
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        height: 100%;
+        align-items: center;
+    }
+
+    &.wrapperAPI {
+        background-color: #d58c8e ;
+    }
+
+    &.wrapperData {
+        background-color: #a8d69f ;
+    }
+
+    &.wrapperResearch {
+        background-color: #fcdca7;
+    }
+
+    &.wrapperTraining {
+        background-color: #dff7ff;
+    }
+
+
+}
+
+.platformHeader {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 20px 0 10px 0;
+}
+
+.platformText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.platformBlock {
+    width: 100%;
+}
+
+.platformHeaderText {
+    text-align: center !important;
+}

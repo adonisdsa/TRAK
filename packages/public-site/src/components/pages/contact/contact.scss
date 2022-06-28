@@ -1,0 +1,102 @@
+@import 'style/colors.scss';
+
+.Contact {
+    .clients-text {
+        padding-top: 60px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+        color: $text-lighter;
+        line-height: 20px;
+    }
+
+    .contact-description {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 5px 0px 10px 0;
+        font-weight: 100;
+        letter-spacing: normal;
+        color: black
+    }
+
+    .cell {
+        display: flex;
+        padding: 0;
+        align-items: center;
+
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+    .contact-grid {
+        display: flex;
+        box-orient: horizontal;
+        box-direction: normal;
+        flex-flow: row wrap;
+        padding: 1rem 0;
+    }
+
+    .contact-grid > .cell {
+        width: 50%;
+    }
+
+    #firstname-97998470-24a5-46ee-a9d6-914671431ebe,
+    #lastname-97998470-24a5-46ee-a9d6-914671431ebe,
+    #tell_us_more-97998470-24a5-46ee-a9d6-914671431ebe {
+        width: 100%;
+    }
+
+    #tell_us_more-97998470-24a5-46ee-a9d6-914671431ebe {
+        min-height: 200px;
+    }
+
+    #anything_else_-19f834d4-1456-4242-9af8-0a863e0f6402 {
+        width: 100% !important
+    }
+
+    .hs-form-field {
+        width: 100% !important;
+    }
+
+    .hs-form .hs-button {
+        color: white;
+        padding: 0.7rem 1rem;
+        font-weight: 600;
+        border-radius: 6px;
+        background-color: #00beff !important;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hs-form .hs-button {
+            padding: 1rem 1rem !important;
+            border-radius: 6px !important;
+        }
+    }
+
+    .loader {
+
+        height: 669.78px;
+        margin: auto;
+        display: flex;
+    
+        
+            svg {
+                height: 50px;
+                width: 50px;
+                margin: auto;
+            }
+    
+            .fa-primary {
+                color: $primary
+            }
+    
+            .fa-secondary {
+                color: $disabled
+                }
+        }
+        
+}

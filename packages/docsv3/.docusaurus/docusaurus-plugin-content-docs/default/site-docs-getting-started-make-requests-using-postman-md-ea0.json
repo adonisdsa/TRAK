@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Getting Started/Make Requests/using-postman",
+  "id": "Getting Started/Make Requests/using-postman",
+  "isDocsHomePage": false,
+  "title": "Using Postman",
+  "description": "",
+  "source": "@site/docs/Getting Started/Make Requests/using-postman.md",
+  "sourceDirName": "Getting Started/Make Requests",
+  "slug": "/Getting Started/Make Requests/using-postman",
+  "permalink": "/docs/Getting Started/Make Requests/using-postman",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using cURL",
+    "permalink": "/docs/Getting Started/Make Requests/using-curl"
+  },
+  "next": {
+    "title": "Getting Started Old",
+    "permalink": "/docs/getting-started"
+  }
+}

@@ -1,0 +1,446 @@
+@import "style/colors.scss";
+
+.navBar {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+    height: 6.6rem;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1368px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    top: 0;
+    z-index: 12;
+}
+
+@media screen and (min-width: 1120px) {
+    .navBar {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 5rem;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1368px;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        top: 0;
+        z-index: 12;
+    //     overflow: hidden;
+    // background-color: white;
+    // position: fixed; /* Set the navbar to fixed position */
+    // top: 0; /* Position the navbar at the top of the page */
+    // width: 100vw; /* Full width */
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .navBarLogo {
+        padding-right: 16px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .mobileNavBar {
+        height: 96px;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .mobileNavBar {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1119px) {
+    .mobileNavBar {
+        display: block;
+        height: 48px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobileNavBar_logo-container {
+        left: 2.3rem;
+    }
+}
+
+.mobileNavBar_logo-container {
+    left: 1rem;
+    position: absolute;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mobileNavBar_button-container {
+    background-color: transparent;
+    display: block;
+    margin-top: -13px;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    z-index: 11;
+}
+
+.navLink {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.navLink:hover {
+    color: $primary;
+}
+
+@media (max-width: 600px) {
+    .navLink {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+.navBarLinks {
+    display: flex;
+    margin: auto;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBarLinks {
+        display: none;
+    }
+}
+
+.navBar_Actions {
+    display: flex;
+    height: 100%;
+    margin: auto 0;
+}
+
+@media (max-width: 1119px) {
+    .navBar_Actions {
+        display: none;
+    }
+}
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+
+    input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0; /* hide this */
+        z-index: 2; /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+
+    span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+            opacity 0.55s ease;
+    }
+
+    span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+
+    input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    input:checked ~ span:nth-last-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    input:checked ~ ul {
+        transform: scale(1, 1);
+        opacity: 1;
+    }
+}
+
+.columnheaderWrapper {
+    display: inline-flex;
+
+    svg {
+        vertical-align: middle;
+        color: $primary;
+        padding-right: 10px;
+    }
+
+    p {
+        position: relative;
+        top: -5px;
+        color: $secondary;
+        font-weight: 800;
+    }
+}
+
+.menuHeader {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: left;
+    color: $text-light;
+    position: relative;
+    top: -20px
+}
+
+.menuContainer {
+    display: flex;
+}
+
+.menuColumn:last-child {
+    padding-left: 10px
+}
+
+.menuSection {
+    padding-bottom: 30px;
+}
+
+
+.menuColumn {
+    display: block;
+    flex: 1 1 50%;
+    
+
+    li {
+        padding: 5px 0 !important;
+        
+        a {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 10px;
+        }
+    }
+}
+
+#menu {
+    position: absolute;
+    width: 100vw;
+    height: 115vh;
+    margin: -100px 0 0 0;
+    padding: 40px 40px;
+    padding-top: 125px;
+    right: -40px;
+    text-align: left;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+    li {
+        padding: 15px 0;
+        font-size: 24px;
+        color: $text-dark !important;
+    }
+
+    a {
+        color: $text-dark !important;
+    }
+
+    a:hover {
+        color: $primary;
+    }
+
+    .Button {
+        padding: 20px 0 0 0;
+        margin: auto;
+
+        a {
+            color: white !important;
+        }
+    }
+}
+
+.navButton {
+    text-decoration: none;
+    margin: auto;
+}
+
+.checkbox {
+    display: none;
+}
+
+.dropdown:hover .dropdownMenu{
+    display: flex;
+    color: $primary !important;
+    margin-left: -40vw;
+}
+
+.dropdown:hover {
+    color: $primary !important;
+    cursor: pointer;
+}
+
+.dropdownMenu {
+   display: none;
+   position: absolute;
+   z-index: 1;
+   background-color: white;
+   width: auto;
+   margin: auto;
+   margin-top: 10px;
+   -webkit-box-shadow: 0px 1px 15px -3px rgba(0,0,0,0.46); 
+   box-shadow: 0px 1px 15px -3px rgba(0,0,0,0.46);
+   border-radius: 8px;
+}
+
+.dropdownColumn {
+    display: block;
+    width: 20vw;
+    padding: 30px 0 0 0;
+
+    h3 {
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+}
+
+
+.columnWrapper {
+    display: inline-flex;
+    width: auto;
+    padding: 10px 0 20px 30px;
+
+    .columnHeader {
+        font-size: 15px;
+        font-weight: 800;
+        color: $secondary;
+        width: auto;
+        line-height: normal;
+    }
+
+    svg {
+        margin: auto;
+        width: 30px !important;
+        height: auto;
+        padding-right: 10px;
+    }
+
+    &.research svg {
+        width: 20px !important;
+        height: auto;
+        padding-right: 15px;
+    }
+
+    &.data svg {
+        width: 24px !important;
+        height: auto;
+        padding-right: 15px;
+    }
+
+    &.training svg {
+        width: 40px !important;
+        height: auto;
+    }
+}
+
+
+
+.productDropdown {
+    display: block;
+    padding: 15px 35px;
+    font-weight: 600;
+    height: 100px;
+
+    h3 {
+        font-size: 15px;
+        text-transform: none;
+        letter-spacing: normal;
+        font-weight: 600;
+    }
+
+    &.lms {
+        height: auto;
+    }
+
+    &.api {
+        height: auto;
+    }
+}
+
+.productDropdown:hover {
+    border-radius: inherit;
+    
+    h3 {color: $primary}
+    
+}
+
+
+
+.productDropdownText {
+    color: #9f9f9f;
+    font-size: 12px;
+    line-height: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+
+#trak_dark_2 {
+    width: 25px !important;
+    height: auto;
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+  "unversionedId": "to-be-launched/submitting-an-application",
+  "id": "to-be-launched/submitting-an-application",
+  "isDocsHomePage": false,
+  "title": "Submitting an application",
+  "description": "To make any request to the Blue Flag API, you must first sign-up for an account.",
+  "source": "@site/docs/to-be-launched/submitting-an-application.md",
+  "sourceDirName": "to-be-launched",
+  "slug": "/to-be-launched/submitting-an-application",
+  "permalink": "/docs/to-be-launched/submitting-an-application",
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

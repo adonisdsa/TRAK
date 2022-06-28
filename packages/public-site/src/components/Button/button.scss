@@ -1,0 +1,181 @@
+@import 'style/colors.scss';
+
+$buttonPadding: 12px 16px;
+$borderRadius: 6px;
+$fontWeight: 600;
+
+.Button {
+    transition-duration: 100ms;
+    transition-property: color, border;
+    transition-timing-function: ease-out;
+    font-size: 15px;
+    width: fit-content;
+    letter-spacing: 0px;
+
+    a {
+        text-decoration: none !important;
+    }
+
+    &:hover svg {
+        left: 3px;
+}
+
+    .Button-outline {
+        padding: $buttonPadding;
+        font-weight: $fontWeight;
+        border-radius: $borderRadius;
+
+        &.Button--primary-dark {
+            border: 2px solid $primary-dark;
+            color: $primary-dark;
+
+            &:hover {
+                border: 2px solid $primary;
+                color: $primary;
+                text-decoration: none;
+            }
+        }
+
+        &.Button--white {
+            border: 2px solid white;
+            color: white;
+
+            &:hover {
+                border: 2px solid $primary;
+                color: $primary;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .Button-fill {
+        padding: $buttonPadding;
+        font-weight: $fontWeight;
+        border-radius: $borderRadius;
+
+        &.Button--primary {
+            background-color: $primary;
+            color: white;
+
+            &:hover {
+                background-color: $primary-hover;
+                text-decoration: none;
+            }
+        }
+
+        &.Button--primary-dark {
+            background-color: $primary-dark;
+            color: white;
+
+            &:hover {
+                background-color: $primary-dark-hover;
+                text-decoration: none;
+            }
+        }
+
+        &.Button--secondary {
+            background-color: $secondary;
+            color: #000000;
+
+            &:hover {
+                background-color: $secondary-hover;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .Button-quiet {
+        padding: 0;
+        font-weight: $fontWeight;
+        border-radius: $borderRadius;
+
+        &.Button--primary {
+            color: $primary;
+
+            &:hover {
+                color: $primary-hover;
+                text-decoration: none;
+            }
+        }
+
+        &.Button--primary-dark {
+            color: $primary-dark;
+
+            &:hover {
+                color: $primary-dark-hover;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .Button-new-fill {
+        padding: 10px 25px;
+        font-weight: $fontWeight;
+        border-radius: 20px;
+
+        &.Button--primary {
+            color: white;
+            background-color: $primary;
+            border: 2px solid $primary;
+
+            &:hover {
+                color: white;
+                text-decoration: none;
+                background-color: $primary-hover;
+                border: 2px solid $primary-hover;
+            }
+        }
+
+        &.Button--primary-dark {
+            color: white;
+            background-color: $primary-dark;
+            border: 2px solid $primary-dark;
+
+            &:hover {
+                color: white;
+                text-decoration: none;
+                background-color: $primary-dark-hover;
+                border: 2px solid $primary-dark-hover;
+            }
+        }
+    }
+
+    .Button-new-outline {
+        padding: 10px 25px;
+        font-weight: $fontWeight;
+        border-radius: 20px;
+
+        &.Button--primary {
+            color: $primary;
+            border: 2px solid $primary;
+
+            &:hover {
+                color: white;
+                text-decoration: none;
+                background-color: $primary-hover;
+                border: 2px solid $primary-hover;
+            }
+        }
+
+        &.Button--primary-dark {
+            color: $primary-dark;
+
+            &:hover {
+                color: $primary-dark-hover;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.svg-inline--fa.fa-arrow-right {
+    // height: 1em !important;
+    // width: 0.5em !important;
+    // vertical-align: -0.125em !important;
+    width: 12px !important;
+    height: 12px !important;
+    position: relative;
+    top: -1px;
+    left: 0px;
+    transition: left 0.15s ease 0s;
+}

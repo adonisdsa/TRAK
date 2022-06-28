@@ -1,0 +1,23 @@
+{
+  "unversionedId": "getting-started/request-using-curl postman",
+  "id": "getting-started/request-using-curl postman",
+  "isDocsHomePage": false,
+  "title": "Using Postman",
+  "description": "Another way of making your first request to the Blue Flag API is using Postman. This tool lets you make HTTP requests using a graphical user interface. You can specify the request URL, parameters, headers etc.",
+  "source": "@site/docs/getting-started/request-using-curl postman.md",
+  "sourceDirName": "getting-started",
+  "slug": "/using-postman",
+  "permalink": "/docs/docs/using-postman",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/getting-started/request-using-curl postman.md",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "slug": "/using-postman"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using cURL",
+    "permalink": "/docs/docs/using-curl"
+  }
+}

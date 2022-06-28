@@ -1,0 +1,13 @@
+@import 'style/colors.scss';
+
+.summary {
+  background-color: $primary;
+}
+
+.summary-header {
+  color: white;
+  padding: 20px 50px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}

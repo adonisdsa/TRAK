@@ -1,0 +1,152 @@
+---
+name: VIN Decoder Lite
+---
+
+import { Playground } from 'dokz'
+import { Stack, HStack, Flex } from "@chakra-ui/react"
+import { NextSeo } from 'next-seo'
+
+<NextSeo
+    title='VIN Decoder Lite'
+    description='Find useful specific details of your vehicle.'
+/>
+
+<HStack>
+<Box className="attributes" h="100%" px="40px" py="10px">
+
+# VIN Decoder Lite
+
+Find useful specific details of your vehicle. VIN Decoder covers all passenger and light commerical vehicle back to 1990. For a more comprehensive list of fields, use [VIN Decoder](https://blueflag.com.au/docs/api/products/vin_decoder/).
+
+<br /> <br />
+
+**Attributes**
+___
+
+`vin` <span className="smaller-text">string</span>
+
+A unique 17 character code used to identify individual motor vehicles.
+
+___
+
+`make` <span className="smaller-text">string</span>
+
+Manufacturer of the vehicle.
+
+___
+
+`model` <span className="smaller-text">string</span>
+
+The specific product within the manufacturers range.
+
+___
+
+`series` <span className="smaller-text">string</span>
+
+Internal code denoting the manufacturers product.
+
+___
+
+`body_style` <span className="smaller-text">string</span>
+
+Body style of the vehicle.
+
+___
+
+`fuel.type` <span className="smaller-text">string</span>
+
+Fuel type powering the vehicle.
+
+___
+
+`engine.cylinders` <span className="smaller-text">integer</span>
+
+Number of individual cylinders within the engine.
+
+___
+
+`engine.size_litres` <span className="smaller-text">float</span>
+
+Size of the engine measured in litres.
+
+___
+
+`transmission.type` <span className="smaller-text">string</span>
+
+Type of transmission fitted to the vehicle.
+
+___
+
+
+</Box>
+
+<Box className="box2" h="100%" px="40px" py="10px">
+
+<br />
+
+<div className="method-example-response">
+    <div className="method-example-request-topbar">
+        <div className="method-example-request-title">ENDPOINT URL</div>
+    </div>
+    <pre className="IntroSection-pre">
+
+```
+https://sandbox.blueflag.com.au/vin_decoder_lite?vin=KMHH351EMKU00TEST"
+```
+
+</pre>
+</div>
+
+<div className="method-example-response">
+    <div className="method-example-request-topbar">
+        <div className="method-example-request-title">EXAMPLE REQUEST</div>
+    </div>
+    <pre className="IntroSection-pre">
+
+```bash
+curl "https://sandbox.blueflag.com.au/vin_decoder_lite?vin=KMHH351EMKU00TEST" -H "Authorization: secret_SANDBOX_f1nlZOh0Xr1JvMgJy0d0l9i5JybnBEAYfl7isuU0_o-1GkBsaN8f"
+```
+
+</pre>
+</div>
+
+
+<div className="method-example-response">
+    <div className="method-example-request-topbar">
+        <div className="method-example-request-title">EXAMPLE RESPONSE</div>
+    </div>
+    <pre className="IntroSection-pre">
+
+```json
+    {
+        "request_id":"cda6fed9-f755-4336-bfc8-ea99ece9a3e6",
+        "result": {
+            "make":"Hyundai",
+            "model":"i30",
+            "series":"PD",
+            "body_style":"Hatchback",
+            "fuel": {
+                "type":"Petrol"
+            },
+            "engine": {
+                "cylinders":4,
+                "size_litres":2
+            },
+            "transmission": {
+                "type":"Automatic"
+        }
+    }
+}
+```
+
+</pre>
+</div>
+
+</Box>
+
+</HStack>
+
+
+
+
+

@@ -1,0 +1,79 @@
+@import 'style/colors.scss';
+
+
+
+.workwith-container {
+
+    text-align: left;
+
+    .workwith-grid {
+        display: flex;
+        box-orient: horizontal;
+        box-direction: normal;
+        flex-flow: row wrap;
+    }
+
+    .homeSmall {
+        height: 140px;
+        line-height: 45px;
+    }
+
+    .workwith-grid > .cell {
+        width: 25%;
+        padding: 7px;
+    }
+
+    @media screen and (max-width: 768px) {    
+        .workwith-grid > .cell {
+            width: 25%;
+            padding: 10px;
+        }
+
+        .companiesHome {
+            padding: 30px 20px !important
+        }
+    }
+
+    .cell {
+        display: flex;
+        padding: 0;
+        align-items: center;
+
+        img {
+            transform: scale(0.8)
+        }
+    }
+
+    .sub-header {
+        color: $primary;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Source Code Pro", monospace;
+        letter-spacing: 1px;
+    }
+
+    .button-container {
+        margin: auto;
+        width: fit-content;
+    }
+
+    .feature-title {
+    margin: auto;
+    }
+
+    @media screen and (max-width: 768px) {  
+        .text {
+            padding: 20px 0px !important;
+        }
+    }
+    
+    h3 {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase;
+        color: #f7af2b !important;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-bottom: 0;
+        }
+}

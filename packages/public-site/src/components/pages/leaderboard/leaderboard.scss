@@ -1,0 +1,65 @@
+@import 'style/colors.scss';
+
+.leaderboardHeader {
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.leaderboardSubHeader {
+    font-size: 20px !important;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    margin-bottom: 0px;
+    color: $primary !important;
+}
+
+@media screen and (max-width: 768px) {
+    .leaderboardHeader {
+        font-size: 30px !important;
+        text-align: center;
+        line-height: 40px;
+    }}
+
+@media screen and (max-width: 768px) {
+    .leaderboardFlex {
+        padding: 40px 20px !important;
+    }}    
+
+@media screen and (max-width: 768px) {
+.leaderboardFlex Section {
+    padding: 20px 0 !important;
+}}
+
+.leaderboardFlex iframe {
+    border: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+
+    .table th {
+        color: red !important
+    }
+}
+
+.leaderboardFlex p {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.trophyWrapper {
+    border-radius: 60px;
+    width: max-content;
+    margin: auto;
+    background-color: #fcdda7;
+    margin-bottom: 40px;
+
+
+    svg {
+        width: 60px;
+        height: auto;
+        padding: 25px;
+        color: #f7af2b;
+        vertical-align: middle;
+    }
+}

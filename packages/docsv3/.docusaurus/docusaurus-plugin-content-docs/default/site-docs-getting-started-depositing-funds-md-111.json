@@ -1,0 +1,16 @@
+{
+  "unversionedId": "getting-started/depositing-funds",
+  "id": "getting-started/depositing-funds",
+  "isDocsHomePage": false,
+  "title": "Depositing funds",
+  "description": "To make any request to the Blue Flag API, you must first sign-up for an account.",
+  "source": "@site/docs/getting-started/depositing-funds.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/depositing-funds",
+  "permalink": "/docs/getting-started/depositing-funds",
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  }
+}

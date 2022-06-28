@@ -1,0 +1,18 @@
+{
+  "unversionedId": "Payments/index",
+  "id": "Payments/index",
+  "isDocsHomePage": false,
+  "title": "Payments",
+  "description": "",
+  "source": "@site/docs/Payments/index.md",
+  "sourceDirName": "Payments",
+  "slug": "/Payments/index",
+  "permalink": "/docs/Payments/index",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Charges",
+    "permalink": "/docs/Payments/charges"
+  }
+}

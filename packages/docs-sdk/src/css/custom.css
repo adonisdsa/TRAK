@@ -1,0 +1,487 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary:  #00beff;
+  --ifm-color-primary-dark: #053440;
+  --ifm-color-primary-darker: #02242c;
+  --ifm-color-primary-darkest: #1a202c;
+  --ifm-color-primary-light: #00beff;
+  --ifm-color-primary-lighter: #00b0ec;
+  --ifm-color-primary-lightest: #0090c3;
+  --ifm-color-primary-ultra-light: #e4f7ff;
+  --ifm-color-secondary:  #ffa600;
+  --ifm-color-secondary-dark:  #e69500;
+  --ifm-color-secondary-darker:  #cc8500;
+  --ifm-color-secondary-darkest:  #b37400;
+  --ifm-color-secondary-light:  #ffaf1a;
+  --ifm-color-secondary-lighter:  #ffb833;
+  --ifm-color-secondary-lightest:  #ffc14d;
+  --ifm-code-font-size: 95%;
+}
+
+.row {
+  width: 100vw;
+}
+
+
+.row .col {
+  --ifm-col-width: 100%;
+  flex: 1 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding: 40px;
+  width: 100%;
+}
+
+
+html[data-theme='dark'] {
+  --ifm-background-color:  var(--ifm-color-primary-darkest) !important;
+  --ifm-navbar-background-color: var(--ifm-color-primary-dark);
+  --ifm-hero-background-color: var(--ifm-color-primary-darkest) !important;
+  --ifm-blockquote-color: var(--ifm-color-secondary-lightest);
+}
+
+html[data-theme='light'] {
+  --ifm-blockquote-color: var(--ifm-color-secondary-dark);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html[data-theme='dark'] table thead tr  {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme='light'] table thead tr  {
+  background-color: #f5f6f7;
+}
+
+
+table thead tr {
+  background-color: var(--ifm-color-primary-dark);
+  border-bottom-width: 1px;
+  font-size: 15px;
+}
+
+table tbody td {
+  font-size: 15px;
+}
+
+table tbody tr {
+  background-color: inherit;
+}
+
+table tr:nth-child(2n) {
+  background-color: inherit !important;
+}
+
+.tick {
+  color: green;
+}
+
+.sections {
+  width: 100vw !important;
+  display: flex;
+  flex-flow: nowrap;
+  margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+  }
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3 {
+  letter-spacing: -1px;
+  font-weight: 800;
+}
+
+h1 {
+  padding: 0 0 20px 0;
+  font-size: 35px !important;
+}
+
+h3 {
+  padding: 5px 0;
+}
+
+table {
+  padding-top: 20px
+}
+
+.navbar__items.navbar__items--right a {
+  font-weight: 600;
+  font-size: 15px !important;
+}
+
+.react-toggle-track {
+  background-color: rgb(77 77 77 / 44%) !important;
+}
+
+.hero__title {
+  font-size: 33px !important;
+  font-weight: 800;
+  text-align: left;
+  letter-spacing: -1px;
+}
+
+.hero__subtitle {
+  font-size: 17px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.navbar__brand {
+  height: 1.7rem;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  text-align: left;
+}
+
+.list span {
+  color: #fff;
+  background: #ffa600;
+  border-radius: 2px;
+  width: 18px;
+  height: 18px;
+  line-height: 20px;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.list p {
+  display: inline-block;
+}
+
+
+.navbar__item.navbar__link.button.button--outline.button--primary {
+  margin: 0 15px 0 0;
+  color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  color: white !important
+}
+
+.sectionHeader {
+  display: inline-flex;
+}
+
+.sectionHeader h3 {
+  padding-left: 20px
+}
+
+.sectionText {
+  padding-left: 0px !important;
+}
+
+.sectionText p {
+  display: flex;
+}
+
+.sectionBox {
+  padding: 20px;
+  border-radius: 8px;
+  height: 140px;
+}
+
+html[data-theme='dark'] .sectionBox {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme='light'] .sectionBox {
+  background-color: rgba(5, 52, 64, 0.1);
+}
+
+.box-left {
+  display: inline-flex;
+  flex-basis: 70%;
+}
+
+.box-right {
+    flex-basis: 30%;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top:-10px;
+}
+
+.row.docusaurus-mt-lg {
+  display: none;
+}
+
+blockquote {
+  border-left: 6px solid var(--ifm-blockquote-color)
+}
+
+.features_src-components-HomepageFeatures-module {
+  padding: 0rem !important;
+}
+
+.heroBanner_1ZBZ {
+  padding: 4rem 0 1rem !important;
+}
+
+
+.box {
+  flex-basis: 50%;
+  padding: 10px 30px 0 0 !important;
+  height: 100%;
+  width: 45%;
+}
+
+.box2 {
+  flex-basis: 50%;
+  width: 33vw;
+  height: 100%;
+}
+
+.boxContainer {
+  height: 100%;
+  display: flex;
+}
+
+.attributes {
+  flex-basis: 50%;
+  padding: 0 40px 0 0;
+  height: 100%;
+  width: 50%;
+}
+
+.attributes .css-7j5enp {
+  margin: 10px !important
+}
+
+.css-7j5enp {
+  margin-bottom: 0px !important
+}
+
+
+.box2 p {
+  padding-bottom: 20px
+}
+
+.smaller-text {
+  font-size: 14px;
+  color: grey
+}
+
+.alert {
+  padding-top: 20px
+}
+
+.method-example-object, .method-example-request, .method-example-response, .method-example-table {
+  border-radius: 8px !important;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 7%) !important;  
+  margin-bottom: 12px !important;
+}
+
+.method-example-code {
+  border-radius: 8px !important;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 7%) !important;  
+  margin-bottom: 12px !important;
+  margin-top: 50px !important;
+}
+
+
+html[data-theme='light']
+  .method-example-request-topbar {
+    background: darkgray;
+    padding: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+html[data-theme='dark']
+  .method-example-request-topbar {
+    background: #002028;
+    padding: 4px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+pre.IntroSection-pre pre {
+  color: #c1c9d2;
+  background: #053440 !important;
+  font-size: 14px;
+  padding-left: 0px;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+pre.IntroSection-pre .css-3tvecc, .css-6nfh2o {
+  display: none !important;
+}
+
+html[data-theme='light']
+.method-example-request-title {
+  color: #4f566b;
+  padding-left: 12px !important;
+  font-size: 14px;
+  font-weight: bold
+}
+
+html[data-theme='dark']
+.method-example-request-title {
+  color: #a3acb9;
+  padding-left: 12px !important;
+  font-size: 14px;
+  font-weight: bold
+}
+
+
+.method-example-response-title {
+  color: inherit;
+  padding-left: 10px !important;
+  font-size: 14px;
+  font-weight: bold
+}
+
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  font: inherit;
+  float: left;
+  min-width: 100%;
+  padding: var(--ifm-pre-padding);
+  display: flex;
+  flex-direction: column;
+  font-size: 14px !important;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  white-space: break-spaces;
+}
+
+.codeBlockContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+}
+
+.method-example-response-topbar {
+  background:darkgray;
+  padding: 10px 12px !important;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px !important;
+  color: #4f566b;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.method-example-response>p {
+  margin: 0;
+  padding: 12px 20px;
+  line-height: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #4f566b
+}
+
+.method-example-note {
+  background: lightgray;
+  border-radius: 8px;
+}
+
+.method-example-note>p {
+  margin: 0;
+  padding: 12px 20px;
+  line-height: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #4f566b
+}
+
+.css-3tvecc {
+  display: none !important;
+}
+
+.css-12m0k8p {
+  padding-top: 20px !important
+}
+
+#__next > div > div > nav > div > div:nth-child(3) > div.chakra-stack.css-1h3nfwc > div.css-6yavm4 {
+  text-transform: uppercase;
+}
+
+.css-t80207:hover, .css-t80207[data-hover] {
+  transform: none !important;
+}
+
+.small-text-header {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.box2 .small-text-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box-full .small-text-header {
+  padding-bottom: 20px;
+}
+
+.small-text {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.chakra-collapse {
+overflow: initial !important;
+display: block !important;
+opacity: 1 !important;
+height: auto !important;
+}
+
+.css-blo9a3 {
+  display: none !important;
+}
+
+.menu__link.menuLinkText_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebarItem-styles-module {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f7af2b !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+}

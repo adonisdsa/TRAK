@@ -1,0 +1,16 @@
+{
+  "unversionedId": "to-be-launched/generate-live-keys",
+  "id": "to-be-launched/generate-live-keys",
+  "isDocsHomePage": false,
+  "title": "Generate live API key",
+  "description": "The Blue Flag API (Application Program Interface), allows you to connect your software to our data.",
+  "source": "@site/docs/to-be-launched/generate-live-keys.md",
+  "sourceDirName": "to-be-launched",
+  "slug": "/to-be-launched/generate-live-keys",
+  "permalink": "/docs/to-be-launched/generate-live-keys",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

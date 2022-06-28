@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Getting Started/sign-up-to-bfapi",
+  "id": "Getting Started/sign-up-to-bfapi",
+  "isDocsHomePage": false,
+  "title": "Sign Up To Blue Flag API",
+  "description": "",
+  "source": "@site/docs/Getting Started/sign-up-to-bfapi.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/sign-up-to-bfapi",
+  "permalink": "/docs/Getting Started/sign-up-to-bfapi",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Postman",
+    "permalink": "/docs/using-postman"
+  },
+  "next": {
+    "title": "Generate Sandbox Key",
+    "permalink": "/docs/Getting Started/generate-sandbox-keys"
+  }
+}

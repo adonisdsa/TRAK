@@ -1,0 +1,524 @@
+@import 'style/colors.scss';
+
+h1 {
+    padding-bottom: 30px
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 768px) {
+    .VINheroContainer {
+        flex-direction: column-reverse;
+    }
+}
+
+.secondaryCTA {
+    margin: auto;
+    display: block;
+    width: fit-content;
+    padding: 40px 0 0;
+    font-weight: 800;
+    text-decoration: none;
+    transition: left 0.9s ease;
+    
+    svg {
+        vertical-align: middle;
+        stroke: $primary;
+        stroke-width: 20px;
+        position: relative;
+        left: 0px !important;
+    }
+}
+
+.secondaryCTA:hover svg {
+    left: 3px !important;
+    stroke: #00b0ec;
+}
+
+.secondaryCTA:hover {
+    color: #00b0ec
+}
+
+
+
+.heroSection {
+    
+    text-align: left;
+
+    p {
+    padding-bottom: 40px;
+    }
+}
+
+
+.decoderImage svg{
+    margin: auto 0 auto auto ;
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+    .decoderImage svg{
+        margin: auto !important;
+        width: 100%;
+    }
+}
+
+.sourcesImage svg{
+    margin: auto 0 auto auto;
+    width: 570px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+}
+
+@media screen and (max-width: 768px) {
+.sourcesImage svg {
+    margin: 70px 0 auto auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+}}
+
+@media screen and (max-width: 768px) {
+    .dataImage svg{
+        margin: auto !important;
+        width: 70%;
+        padding-bottom: 50px;
+    }
+}
+
+.realCarPricingHero svg{
+    margin: auto 0 auto auto;
+    width: 500px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 64px
+}
+
+@media screen and (max-width: 768px) {
+    .realCarPricingHero svg{
+        margin: auto !important;
+        width: 100%;
+        top: -16px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        padding: 0 !important
+    }}
+
+.customersHeader {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.featureIcon {
+
+    padding: 30px;
+    width: max-content;
+    margin: auto;
+    border-radius: 10px;
+
+    svg {
+        display: inline-flex;
+        margin: auto;
+        vertical-align: middle;
+        align-items: center;
+        width: 40px !important;
+        height: auto;
+        color: white;
+    }
+
+    &.data {
+        background-color: #b4ecff;
+
+
+    }
+
+    &.coverage {
+        background-color: #a9d59f;
+        padding: 27px 20px;
+
+        svg {
+            width: 60px !important;
+        }
+    }
+
+    &.request {
+        background-color: #e68c8e;
+        padding: 28px 25px;
+
+        svg {
+            width: 50px !important;
+        }
+    }
+
+}
+
+.isactive {
+    box-shadow: 0 0 9px -1px rgba(61, 72, 116, 0.2);
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.customerRCP {
+    box-shadow: none;
+    margin: 10px 0;
+}
+
+.textArea {
+
+    display: flex;
+    
+    p {
+        text-align: left;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: grey;
+        position: relative;
+    }
+
+    h3 {
+        text-align: left;
+        padding-bottom: 5px;
+        font-weight: 800;
+        font-size: 20px;
+        letter-spacing: -1px;
+        position: relative;
+    }
+
+}
+
+.iconCircle {
+    background-color: #a9d59f;
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+    border-radius: 80px;
+    display: inline-flex;
+
+    svg {
+        margin: auto;
+        width: 35px !important;
+        height: 35px !important;
+
+        .fa-primary {
+            color: #239608
+        }
+
+        .fa-secondary {
+            color: white;
+            opacity: 1;
+        }
+    }
+}
+
+.features {
+    text-align: center;
+    display: inline-flex;
+}
+
+.copyRCP {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .copyRCP {
+        display: inline-flex;
+        flex-direction: column;
+        padding-left: 0px !important;
+    }}
+
+.copyVIN {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.trustData {
+    margin: 10px 0 !important
+}
+
+.understandCustomer {
+    margin: 10px auto;
+}
+
+
+
+.hero {
+    text-align: left !important;
+    margin: 10px 0 !important;
+}
+
+.header {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fcdda7;
+    color: #f7af2b;
+    width: fit-content;
+    padding: 0 15px;
+    border-radius: 15px;
+}
+
+.vinDecoder {
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    color: #f7af2b !important;
+    width: fit-content;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 0;
+}
+   
+
+.database {
+
+    p {
+        text-align: center;
+        padding: 0 200px;
+    }
+
+    @media screen and (max-width: 768px) {
+        p {
+            padding: 10px
+           
+    }}
+
+    h2 {
+        text-align: center;
+    }
+
+    table {
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(247, 247, 247);
+        }
+
+        width: max-content;
+        margin: auto;
+    
+        td {
+            padding: 15px 10px !important;
+            font-weight: 100;
+            border: 1px solid #eaeaea;
+
+        }
+
+        a {
+            font-weight: 400;
+        }
+
+        th {
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0px;
+            color: darkgrey;
+            font-size: 13px;
+            background-color: #eaeaea;
+            border: 1px solid #eaeaea;
+            padding-right: 40px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        table {
+            width: 100%;
+        }
+    }
+}
+
+.fieldsIcon {
+
+    padding: 20px;
+    width: max-content;
+    margin: auto auto 20px;
+    border-radius: 90px;
+    background-color: rgb(252, 221, 167);
+
+    svg {
+        display: inline-flex;
+        margin: auto;
+        vertical-align: middle;
+        align-items: center;
+        width: 30px !important;
+        height: auto;
+        color: rgb(247, 175, 43);
+    }
+}
+
+.useCases h2 {
+    padding-bottom: 20px;
+}
+
+.usecase {
+    background-color: white;
+    margin: 20px 10px;
+    border: 1px solid #eaeaea;
+
+    &.left {
+        margin-left: 0px !important
+    }
+
+    &.right {
+        margin-right: 0px !important
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .usecase {
+        margin: 20px 0px !important;
+    }
+}
+
+.useCases {
+
+    &.right {
+        padding-top:75px;
+    }
+
+    @media screen and (max-width: 768px) {
+        &.right {
+            padding-top:0;
+        }
+    }
+    
+    p {
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        color: grey;
+    }
+
+    h3 {
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+}
+
+.tabBar {
+    display: flex;
+}
+
+.tab {
+    color: white;
+    padding: 20px;
+    font-weight: 400 !important;
+    font-size: 15px;
+    letter-spacing: normal;
+    width: max-content;
+    margin-bottom: 1px !important;
+
+    &.title {
+        padding: 20px 100px 20px 0px !important;
+        font-size: 17px;
+        font-weight: 600 !important;
+    }
+
+    @media screen and (max-width: 768px) {
+        &.title {
+            padding: 20px 100px 20px 0px !important;
+            font-size: 17px;
+            font-weight: 600 !important;
+            display: none !important
+        }}
+
+    &.active {
+        border-bottom: 3px solid $primary;
+        color: $primary
+    }
+
+    &.noactive {
+        color: white
+    }
+
+    &.noactive:hover {
+        color: $primary
+    }
+}
+
+.rcpHeader {
+    text-align: center !important;
+    padding: 0px !important;
+    height: 60px
+}
+
+.textData {
+    padding-top: 15px
+}
+
+.textData li {
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: grey;
+    position: relative;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.3em;
+    padding-left: 2em;
+}
+
+
+.rcpFeatureItems {
+    display: flex
+}
+
+@media screen and (max-width: 768px) {
+    .rcpFeatureItems {
+        display: block
+    }}
+
+.RealCarPricingFeaturesContact {
+    padding: 15px 0 30px !important;
+    margin: inherit !important;
+}
+
+.realCarPricingDisclaimer {
+    font-size: 15px;
+    text-align: center;
+}
+
+.faqBox {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+
+    h3 {
+        padding-bottom: 20px
+    }
+}

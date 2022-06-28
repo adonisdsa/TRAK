@@ -1,0 +1,121 @@
+.hero-evcontact {
+    display: flex;
+    text-align: left;
+    margin: auto !important;
+
+    .cta-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        display: flex !important;
+        padding: 40px 0 10px 0;
+    }
+
+    .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
+        width: 100%;
+    }
+
+    .hs-input {
+        width: 100%;
+        padding: 22px 10px;
+    }
+
+    #label-email-50d20ede-7f08-4b4d-aa8e-806f70a37b6e {
+        display: none;
+    }
+    .hs-button.primary.large {
+        margin-top: 0px;
+        border-radius: 6px;
+    }
+
+}
+
+.heroimageWrapper { 
+    max-height: 460px;
+}
+
+.heroimageWrapper svg {
+    width: 120%;
+    height: auto;
+    position: relative;
+    left: -100px;
+    top: 72px;
+    overflow: visible;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .heroimageWrapper svg {
+        width: 100%;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heroFlex {
+        flex-direction: row-reverse;
+
+    .section {
+        flex: 1 1 100%
+    }
+    }
+}
+.report {
+    text-align: left;
+}
+
+#email-aba15b18-0f86-4c41-8a1f-236c8c657ea6, #company-aba15b18-0f86-4c41-8a1f-236c8c657ea6 {
+    width: 100%;
+}
+
+.hs-form .hs-button {
+    color: white;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    background-color: #00beff;
+    border: 0px solid #00beff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.evcontactHeader {
+    font-size: 60px !important;
+    line-height: 60px;
+}
+
+.fullHeight {
+    height: 89vh;
+}
+
+.reportSection {
+    .hs-form .hs-error-msg {
+        color: #ff3c38;
+        font-size: 12px;
+        text-align: left !important;
+        line-height: normal !important;
+    }
+
+    #what_are_you_interested_in_0-dddada3a-3987-480c-b8bb-92e0bd1337a0, 
+    #what_are_you_interested_in_1-dddada3a-3987-480c-b8bb-92e0bd1337a0, 
+    #what_are_you_interested_in_2-dddada3a-3987-480c-b8bb-92e0bd1337a0,
+    #what_are_you_interested_in_3-dddada3a-3987-480c-b8bb-92e0bd1337a0 {
+        width: fit-content;
+    }
+
+    .hs-form-checkbox-display span {
+        padding: 0 10px !important;
+        position: relative !important;
+        top: -2px !important;
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: none;
+    }
+
+    #label-what_are_you_interested_in_-dddada3a-3987-480c-b8bb-92e0bd1337a0 {
+        padding-bottom: 15px !important
+    }
+
+}

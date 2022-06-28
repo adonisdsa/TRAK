@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Getting Started/request-using-curl",
+  "id": "Getting Started/request-using-curl",
+  "isDocsHomePage": false,
+  "title": "Using cURL",
+  "description": "The simplest approach is to make a request in your terminal using curl. The example below shows how you can retrieve Vehicle Details from a registration plate and state entry. This uses the vehicledetails endpoint.",
+  "source": "@site/docs/Getting Started/request-using-curl.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/using-curl",
+  "permalink": "/docs/using-curl",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "slug": "/using-curl"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting-started"
+  },
+  "next": {
+    "title": "Using Postman",
+    "permalink": "/docs/using-postman"
+  }
+}

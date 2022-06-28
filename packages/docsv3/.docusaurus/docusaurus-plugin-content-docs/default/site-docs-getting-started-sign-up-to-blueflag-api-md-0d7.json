@@ -1,0 +1,21 @@
+{
+  "unversionedId": "Getting Started/sign-up-to-blueflag-api",
+  "id": "Getting Started/sign-up-to-blueflag-api",
+  "isDocsHomePage": false,
+  "title": "Sign Up To Blue Flag API",
+  "description": "",
+  "source": "@site/docs/Getting Started/sign-up-to-blueflag-api.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/sign-up-to-blueflag-api",
+  "permalink": "/docs/Getting Started/sign-up-to-blueflag-api",
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Generate Sandbox Key",
+    "permalink": "/docs/Getting Started/generate-sandbox-keys"
+  }
+}

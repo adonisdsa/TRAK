@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Getting Started/Make Requests/using-curl",
+  "id": "Getting Started/Make Requests/using-curl",
+  "isDocsHomePage": false,
+  "title": "Using cURL",
+  "description": "",
+  "source": "@site/docs/Getting Started/Make Requests/using-curl.md",
+  "sourceDirName": "Getting Started/Make Requests",
+  "slug": "/Getting Started/Make Requests/using-curl",
+  "permalink": "/docs/Getting Started/Make Requests/using-curl",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Generate Sandbox Key",
+    "permalink": "/docs/Getting Started/generate-sandbox-keys"
+  },
+  "next": {
+    "title": "Using Postman",
+    "permalink": "/docs/Getting Started/Make Requests/using-postman"
+  }
+}

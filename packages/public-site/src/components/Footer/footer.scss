@@ -1,0 +1,130 @@
+@import 'style/colors.scss';
+
+.Footer-title {
+    text-decoration: none;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -2px;
+}
+
+.Footer-content {
+    // TODO: Only need to set a min-height until we add proper content to the footer
+    min-height: 300px;
+}
+
+.Footer-legals {
+    padding: 20px 0;
+    font-size: 14px;
+
+    span {
+        margin-right: 50px;
+    }
+
+    a {
+        padding-right: 20px;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Footer-socials {
+        padding: 20px 0;
+        font-size: 14px;
+        float: left !important;
+    }
+}
+
+.Footer-socials {
+    padding: 20px 0;
+    font-size: 14px;
+    float: right;
+
+    a {
+        padding-right: 20px;
+        color: white;
+    }
+
+    a:hover {
+        color: $primary;
+    }
+
+    svg {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .linkColumn {
+        float: none;
+        width: 100% !important;
+
+        &.first {
+            width: 100% !important;
+        }
+    
+        &.second {
+            width: 100% !important;
+        }
+    }
+}
+
+.linkColumn {
+    float: right;
+    width: 140px;
+
+    &.first {
+        width: 110px;
+    }
+
+    &.second {
+        width: 180px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .PageLinks {
+        padding-top: 20px;
+    }
+}
+
+.PageLinks {
+
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $gray-500;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    a:hover {
+        color: $primary;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+
+// .Footer-row a {
+//     color: white;
+//     padding-right: 10px;
+// }
+// .Footer-row a:nth-child(3n + 2),
+// .Footer-row a:nth-child(3n + 3) {
+//     color: white;
+//     padding-left: 10px;
+// }

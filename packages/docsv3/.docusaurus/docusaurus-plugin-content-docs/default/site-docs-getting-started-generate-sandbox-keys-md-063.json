@@ -1,0 +1,25 @@
+{
+  "unversionedId": "getting-started/generate-sandbox-keys",
+  "id": "getting-started/generate-sandbox-keys",
+  "isDocsHomePage": false,
+  "title": "Generate sandbox API key",
+  "description": "The Blue Flag API (Application Program Interface), allows you to connect your software to our data.",
+  "source": "@site/docs/getting-started/generate-sandbox-keys.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/generate-sandbox-keys",
+  "permalink": "/docs/getting-started/generate-sandbox-keys",
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Sign up to the Blue Flag API",
+    "permalink": "/docs/getting-started/sign-up-to-blueflag-api"
+  },
+  "next": {
+    "title": "Test Vehicles",
+    "permalink": "/docs/getting-started/test-vehicles"
+  }
+}

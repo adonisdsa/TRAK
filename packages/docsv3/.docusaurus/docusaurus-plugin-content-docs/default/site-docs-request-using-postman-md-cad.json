@@ -1,0 +1,13 @@
+{
+  "unversionedId": "request-using-postman",
+  "id": "request-using-postman",
+  "isDocsHomePage": false,
+  "title": "Using Postman",
+  "description": "You can make a request to the Blue Flag API is using Postman. This tool lets you make HTTP requests using a graphical user interface. You can specify the request URL, parameters, headers etc.",
+  "source": "@site/docs/request-using-postman.md",
+  "sourceDirName": ".",
+  "slug": "/request-using-postman",
+  "permalink": "/docs/request-using-postman",
+  "version": "current",
+  "frontMatter": {}
+}

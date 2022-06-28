@@ -1,0 +1,111 @@
+@import 'style/colors.scss';
+
+
+.blog-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.blogBox:hover {
+
+    h3 {
+        color: $primary
+    }
+
+}
+
+.blogtextWrapper {
+    padding: 20px
+}
+
+.gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        height: auto !important;
+    }
+}
+
+
+.blogBox:first-child {
+    flex: 0 1 1200px;
+    display: block;
+
+    .gatsby-image-wrapper {
+        float: left;
+        width: 600px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        .gatsby-image-wrapper {
+            float: none;
+            width: 100%;
+        }}
+
+    .blogtextWrapper {
+        padding: 20px;
+        display: flow-root;
+    }
+
+    p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        margin-bottom: 70px;
+        color: $text-dark;
+    }
+
+    @media screen and (max-width: 1199px) {
+        p {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            margin-bottom: 20px;
+            color: $text-dark;
+        }}
+}
+
+@media screen and (max-width: 1199px) {
+    .blogBox {
+        flex: 1 1 372px !important; 
+    }
+}
+
+.blogBox {
+    flex: 0 1 372px;
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 15px 35px, rgba(0, 0, 0, 0.07) 0px 5px 15px;
+    background: white;
+    border-radius: 6px;
+    color: rgb(0, 32, 40);
+     
+    p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin-bottom: 20px;
+        color: $text-dark;
+    }
+
+    a {
+        text-decoration: none !important;
+    }
+
+    h3 {
+        height: 70px;
+        font-size: 24px;
+        transition: color 0.2s ease;
+    }
+
+    .dateTime {
+        color: $text-light;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 13px
+    }
+}

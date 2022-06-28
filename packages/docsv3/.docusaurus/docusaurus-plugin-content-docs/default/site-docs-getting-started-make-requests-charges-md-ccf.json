@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Getting Started/Make Requests/charges",
+  "id": "Getting Started/Make Requests/charges",
+  "isDocsHomePage": false,
+  "title": "Charges",
+  "description": "",
+  "source": "@site/docs/Getting Started/Make Requests/charges.md",
+  "sourceDirName": "Getting Started/Make Requests",
+  "slug": "/Getting Started/Make Requests/charges",
+  "permalink": "/docs/Getting Started/Make Requests/charges",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Postman",
+    "permalink": "/docs/using-postman"
+  },
+  "next": {
+    "title": "Payments",
+    "permalink": "/docs/Getting Started/Make Requests/index"
+  }
+}

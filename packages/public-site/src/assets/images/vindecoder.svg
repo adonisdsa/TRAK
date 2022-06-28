@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="614" height="747" viewBox="0 0 614 747">
+  <g id="Group_3" data-name="Group 3" transform="translate(-927 -80)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-5)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="614" height="747" rx="10" transform="translate(932 80)" fill="#1a202c"/>
+      <text id="_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26" data-name="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26" transform="translate(963 123)" fill="#707070" font-size="18" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="0" y="0">1</tspan><tspan x="0" y="27">2</tspan><tspan x="0" y="54">3</tspan><tspan x="0" y="81">4</tspan><tspan x="0" y="108">5</tspan><tspan x="0" y="135">6</tspan><tspan x="0" y="162">7</tspan><tspan x="0" y="189">8</tspan><tspan x="0" y="216">9</tspan><tspan x="0" y="243">10</tspan><tspan x="0" y="270">11</tspan><tspan x="0" y="297">12</tspan><tspan x="0" y="324">13</tspan><tspan x="0" y="351">14</tspan><tspan x="0" y="378">15</tspan><tspan x="0" y="405">16</tspan><tspan x="0" y="432">17</tspan><tspan x="0" y="459">18</tspan><tspan x="0" y="486">19</tspan><tspan x="0" y="513">20</tspan><tspan x="0" y="540">21</tspan><tspan x="0" y="567">22</tspan><tspan x="0" y="594">23</tspan><tspan x="0" y="621">24</tspan><tspan x="0" y="648">25</tspan><tspan x="0" y="675">26</tspan></text>
+      <text id="_" data-name="{" transform="translate(1003 123)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">{</tspan></text>
+      <text id="_request_id_:_baf6dcfb-0a34-4881-9365-87dffc9d1e31_result_:_" data-name="“request_id”: “baf6dcfb-0a34-4881-9365-87dffc9d1e31”,
+“result”: {" transform="translate(1026 148)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“request_id”</tspan><tspan y="0" fill="#707070">: </tspan><tspan y="0" fill="#cae793">“baf6dcfb-0a34-4881-9365-87dffc9d1e31”,</tspan><tspan x="0" y="27">“result”</tspan><tspan y="27" fill="#cae793">: {</tspan></text>
+      <text id="_type_:_Petrol_" data-name="“type”: “Petrol”" transform="translate(1067 499)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“type”</tspan><tspan y="0" fill="#707070">: </tspan><tspan y="0" fill="#cae793">“Petrol”</tspan></text>
+      <text id="_vin_:_KMHH351EMKU00TEST_make_:_Mercedes-Benz_model_:_C-Class_series_:_PD2_variant_:_ACTIVE_build_year_:_2019_model_year_:_2019_body_style_:_Hatchback_doors_:_4_seats_:_5_fuel_:_" data-name="“vin”: “KMHH351EMKU00TEST”,
+“make”: “Mercedes-Benz”,
+“model”: “C-Class”,
+“series”: “PD2”,
+“variant”: “ACTIVE”,
+“build_year”: 2019,
+“model_year”: 2019,
+“body_style”: “Hatchback”,
+“doors”: 4,
+“seats”: 5,
+“fuel”: {" transform="translate(1043 202)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“vin”</tspan><tspan y="0" fill="#707070">:</tspan><tspan y="0" xml:space="preserve" fill="#cae793"> “KMHH351EMKU00TEST”,</tspan><tspan x="0" y="27">“make”</tspan><tspan y="27" fill="#707070">: </tspan><tspan y="27" fill="#cae793">“Mercedes-Benz”,</tspan><tspan x="0" y="54">“model”</tspan><tspan y="54" fill="#707070">: </tspan><tspan y="54" fill="#cae793">“C-Class”,</tspan><tspan x="0" y="81">“series”</tspan><tspan y="81" fill="#707070">: </tspan><tspan y="81" fill="#cae793">“PD2”,</tspan><tspan x="0" y="108">“variant”</tspan><tspan y="108" fill="#707070">: </tspan><tspan y="108" fill="#cae793">“ACTIVE”,</tspan><tspan x="0" y="135">“build_year”</tspan><tspan y="135" fill="#707070">: </tspan><tspan y="135" fill="#5a9bcf">2019</tspan><tspan y="135" fill="#cae793">,</tspan><tspan x="0" y="162">“model_year”</tspan><tspan y="162" fill="#707070">: </tspan><tspan y="162" fill="#5a9bcf">2019</tspan><tspan y="162" fill="#cae793">,</tspan><tspan x="0" y="189">“body_style”</tspan><tspan y="189" fill="#707070">: </tspan><tspan y="189" fill="#cae793">“Hatchback”,</tspan><tspan x="0" y="216">“doors”</tspan><tspan y="216" fill="#707070">: </tspan><tspan y="216" fill="#5a9bcf">4</tspan><tspan y="216" fill="#cae793">,</tspan><tspan x="0" y="243">“seats”</tspan><tspan y="243" fill="#707070">: </tspan><tspan y="243" fill="#5a9bcf">5</tspan><tspan y="243" fill="#cae793">,</tspan><tspan x="0" y="270">“fuel”</tspan><tspan y="270" fill="#707070">: </tspan><tspan y="270" fill="#cae793">{</tspan></text>
+      <text id="_cylinders_:_4_size_litres_:_2" data-name="“cylinders”: 4,
+“size_litres”: 2" transform="translate(1067 606)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“cylinders”</tspan><tspan y="0" fill="#707070">: </tspan><tspan y="0" fill="#5a9bcf">4</tspan><tspan y="0" fill="#cae793">,</tspan><tspan x="0" y="27">“size_litres”</tspan><tspan y="27" fill="#707070">: </tspan><tspan y="27" fill="#5a9bcf">2</tspan></text>
+      <text id="_2" data-name="}," transform="translate(1043 525)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">},</tspan></text>
+      <text id="_drive_:_FWD_engine_:_" data-name="“drive”: “FWD”,
+“engine”: {" transform="translate(1043 552)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“drive”</tspan><tspan y="0" fill="#707070">: </tspan><tspan y="0" fill="#cae793">“FWD”,</tspan><tspan x="0" y="27">“engine”</tspan><tspan y="27" fill="#707070">: </tspan><tspan y="27" fill="#cae793">{</tspan></text>
+      <text id="_transmission_:_" data-name="},
+“transmission”: {" transform="translate(1043 662)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">},</tspan><tspan fill="#7f9eea"><tspan x="0" y="27">“transmission”</tspan><tspan y="27" fill="#cae793">: {</tspan></tspan></text>
+      <text id="_type_:_Auto_" data-name="“type”: “Auto”" transform="translate(1067 715)" fill="#7f9eea" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">“type”</tspan><tspan y="0" fill="#707070">: </tspan><tspan y="0" fill="#cae793">“Auto”</tspan></text>
+      <text id="_3" data-name="}" transform="translate(1043 742)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">}</tspan></text>
+      <text id="_4" data-name="}" transform="translate(1026 769)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">}</tspan></text>
+      <text id="_5" data-name="}" transform="translate(1003 797)" fill="#cae793" font-size="18" font-family="IBMPlexSans-Medium, IBM Plex Sans" font-weight="500"><tspan x="0" y="0">}</tspan></text>
+    </g>
+  </g>
+</svg>

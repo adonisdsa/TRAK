@@ -1,0 +1,25 @@
+{
+  "unversionedId": "getting-started/make-requests/using-curl",
+  "id": "getting-started/make-requests/using-curl",
+  "isDocsHomePage": false,
+  "title": "Using cURL",
+  "description": "The simplest approach is to make a request in your terminal using curl. The example below shows how you can retrieve VIN Decoder from a registration plate and state entry. This uses the vindecoder endpoint.",
+  "source": "@site/docs/getting-started/make-requests/using-curl.md",
+  "sourceDirName": "getting-started/make-requests",
+  "slug": "/getting-started/make-requests/using-curl",
+  "permalink": "/docs/getting-started/make-requests/using-curl",
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Submitting an application",
+    "permalink": "/docs/getting-started/submitting-an-application"
+  },
+  "next": {
+    "title": "Using Postman",
+    "permalink": "/docs/getting-started/make-requests/using-postman"
+  }
+}

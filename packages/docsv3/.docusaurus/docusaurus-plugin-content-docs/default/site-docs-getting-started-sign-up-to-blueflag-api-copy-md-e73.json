@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Getting Started/sign-up-to-blueflag-api copy",
+  "id": "Getting Started/sign-up-to-blueflag-api copy",
+  "isDocsHomePage": false,
+  "title": "Sign Up To Blue Flag API",
+  "description": "",
+  "source": "@site/docs/Getting Started/sign-up-to-blueflag-api copy.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/sign-up-to-blueflag-api copy",
+  "permalink": "/docs/Getting Started/sign-up-to-blueflag-api copy",
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Postman",
+    "permalink": "/docs/Getting Started/Make Requests/using-postman"
+  },
+  "next": {
+    "title": "Sign Up To Blue Flag API",
+    "permalink": "/docs/Getting Started/sign-up-to-blueflag-api"
+  }
+}

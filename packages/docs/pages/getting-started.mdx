@@ -1,0 +1,129 @@
+---
+name: Getting Started
+---
+
+import { Playground } from 'dokz'
+import apiKeysImage from '../public/images/api_keys.png'
+import Image from 'next/image'
+
+import { NextSeo } from 'next-seo'
+
+<NextSeo
+    title='Getting Started'
+    description='Start making test requests as soon as you create a Blue Flag account.'
+/>
+
+# Getting Started with the Blue Flag API
+
+
+## 1: Sign up to the Blue Flag API via blueflag.com.au
+
+To make any request to the Blue Flag API, you must first [sign-up](https://app.blueflag.com.au/get-started) for an account.
+
+Once completed you will be able to add funds to your account and make live requests to the API .  To do this, you will be able to get a set of credentials that you must use to authenticate all requests to the API.
+
+> **Please note:** Your keys and tokens will only display once in the developer portal . It is important that you store these as soon as you generate them.
+
+
+## 2: Generate your sandbox API key
+
+The Blue Flag API (Application Program Interface), allows you to connect your software to our data.
+
+Our Sandbox environment emulates the behaviour of our production API. It allows your developers to integrate and test at no cost.
+
+To access the [Blue Flag API sandbox](https://app.blueflag.com.au/dashboard), you will need to follow these steps:
+
+
+<img src= {apiKeysImage} alt='API Image' layout='fill' />
+
+
+1. Navigate to the '[API Keys](https://app.blueflag.com.au/api-keys)' in your developer Portal
+
+
+2. Click 'Create Sandbox API Key' button
+
+
+3. Name your API key and click **'Create & View'**
+
+
+4. Save your API key somewhere safe and click 'Done'
+
+
+
+
+> **WARNING:** Your API Key will only display once when created. Please store this securely as we cannot show it to you again for security reasons. If a new key is required, your integrations will also need updating.
+
+
+## 3. Making your first request
+
+
+Now that you have your API Key, you are ready to make your first request to the Blue Flag API. In this example, we will request a VIN from a registration plate and state entry.
+
+We can request the above endpoint using one of the following approaches:
+
+Example request:
+
+<div className="method-example-code">
+    <pre className="IntroSection-pre">
+
+```curl
+    curl "https://sandbox.blueflag.com.au/nevdis/vehicle_details?plate=TEST00&state=VIC" \
+-H "Authorization: secret_SANDBOX_f1nlZOh0Xr1JvMgJy0d0l9i5JybnBEAYfl7isuU0_o-1GkBsaN8f"
+```
+
+</pre>
+</div>
+
+
+## Using cURL
+
+The first approach is to make the request in your terminal using curl. The example above shows how you can retrieve [Vehicle Details](https://blueflag.com.au/docs/api/products/nevdis/vehicle_details/) from a registration plate and state entry. This uses the `vehicle_details` endpoint. 
+
+Replace the example sandbox key in the request above with the sandbox key you generated in step 2 and paste the snippet in your terminal. This will send a request to our API to find Vehicle Details for the plate `TEST00` in the state of `VIC` . 
+
+You will get the JSON response for this request as per below:
+
+
+<div class="method-example-code">
+    <pre className="IntroSection-pre">
+
+```json
+{
+   "request_id":"6ea677a9-1cd1-4246-913a-4c43a1818940",
+   "result":[
+      {
+         "vin":"KMHH351EMKU00TEST",
+         "chassis":null,
+         "registration":{
+            "plate":"TEST00",
+            "state":"VIC"
+         },
+         "make":"HYUNDAI",
+         "model":"I30",
+         "colour":"SILVER OR CHROME",
+         "body_type":"CAR/SEDAN",
+         "vehicle_type":"CAR / SMALL PASSENGER VEHICLE",
+         "engine_number":"G40000000000"
+      }
+   ]
+```
+
+</pre>
+</div>
+
+
+
+## Using Postman
+
+Another way of making your first request to the Blue Flag API is using Postman. This tool lets you make HTTP requests using a graphical user interface. You can specify the request URL, parameters, headers etc.
+
+1. Replace **'Enter Request URL'** with the Blue Flag URL shown in the example above.
+2. Switch to the **'Header'** tab, enter in the word **'Authorization'** underneath the KEY column.
+3. Paste your Secret Sandbox key underneath the **'Value'** column.
+4. To make the request, click **'Send'**.
+5. You will then get the JSON response for this request as below.
+
+
+## 4: What's Next
+
+If you need any further assistance, you can send us a message via the in-app chat. simply click the chat bubbles in the right hand corner of the [developer portal](https://app.blueflag.com.au/dashboard).

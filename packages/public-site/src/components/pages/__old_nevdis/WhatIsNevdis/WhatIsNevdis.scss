@@ -1,0 +1,38 @@
+.whatis {
+  background-color: white;
+}
+
+.summary-header {
+  color: white;
+  padding: 20px 50px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center
+}
+
+.what-is-header {
+  color: black;
+  padding: 20px 0 20px 0 ;
+  line-height: 40px;
+}
+
+.what-is-text {
+  color: black;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+#whatis .section-half {
+  padding: 0 30px
+}
+
+#whatis ul {
+padding-left: 25px;
+margin-top: 0;
+}
+
+.double-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}

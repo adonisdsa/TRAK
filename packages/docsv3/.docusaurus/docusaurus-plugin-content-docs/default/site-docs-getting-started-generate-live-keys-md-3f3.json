@@ -1,0 +1,16 @@
+{
+  "unversionedId": "getting-started/generate-live-keys",
+  "id": "getting-started/generate-live-keys",
+  "isDocsHomePage": false,
+  "title": "Generate live API key",
+  "description": "The Blue Flag API (Application Program Interface), allows you to connect your software to our data.",
+  "source": "@site/docs/getting-started/generate-live-keys.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/generate-live-keys",
+  "permalink": "/docs/getting-started/generate-live-keys",
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

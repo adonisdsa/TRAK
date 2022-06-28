@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1037" height="601" viewBox="0 0 1037 601">
+  <defs>
+    <filter id="Rectangle_124" x="0" y="0" width="1037" height="601" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_84" data-name="Group 84" transform="translate(-56.5 -8733.5)">
+    <g transform="matrix(1, 0, 0, 1, 56.5, 8733.5)" filter="url(#Rectangle_124)">
+      <rect id="Rectangle_124-2" data-name="Rectangle 124" width="980" height="544" rx="20" transform="translate(28.5 18.5)" fill="#fff"/>
+    </g>
+    <g id="Group_72" data-name="Group 72" transform="translate(30 8694)">
+      <path id="Path_85" data-name="Path 85" d="M0,0H542V481H20A20,20,0,0,1,0,461Z" transform="translate(55 121)" fill="#fff"/>
+      <g id="Group_71" data-name="Group 71" transform="translate(55 58)">
+        <path id="Rectangle_117" data-name="Rectangle 117" d="M20,0H960a20,20,0,0,1,20,20V63a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" fill="#e8e8e8"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="10" cy="10" r="10" transform="translate(25 22)" fill="#b2b2b2"/>
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="10" cy="10" r="10" transform="translate(65 22)" fill="#b2b2b2"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="10" cy="10" r="10" transform="translate(105 22)" fill="#b2b2b2"/>
+      </g>
+      <path id="Rectangle_123" data-name="Rectangle 123" d="M0,0H439a0,0,0,0,1,0,0V461a20,20,0,0,1-20,20H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(596 121)" fill="#f5f5f5"/>
+      <g id="Group_73" data-name="Group 73" transform="translate(105.257 183.585)">
+        <g id="Group_29" data-name="Group 29">
+          <g id="Group_31" data-name="Group 31" transform="translate(0 40.722)">
+            <g id="Rectangle_114" data-name="Rectangle 114" transform="translate(0 0)" fill="#fafafa" stroke="#e0e0e0" stroke-width="1">
+              <rect width="441.486" height="59.06" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="440.486" height="58.06" rx="3.5" fill="none"/>
+            </g>
+            <text id="BLF940" transform="translate(10.563 39.53)" fill="#001f28" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">BLF940</tspan></text>
+          </g>
+          <text id="Search_by_Number_Plate" data-name="Search by Number Plate" transform="translate(0 24)" fill="#b5b5b5" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Search by Number Plate</tspan></text>
+        </g>
+        <g id="Group_56" data-name="Group 56" transform="translate(0 130.859)">
+          <g id="Group_31-2" data-name="Group 31" transform="translate(0 40.722)">
+            <g id="Rectangle_114-2" data-name="Rectangle 114" transform="translate(0 0)" fill="#fafafa" stroke="#e0e0e0" stroke-width="1">
+              <rect width="441.486" height="59.06" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="440.486" height="58.06" rx="3.5" fill="none"/>
+            </g>
+            <text id="VIC" transform="translate(10.563 39.53)" fill="#001f28" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">VIC</tspan></text>
+          </g>
+          <text id="State" transform="translate(0 28)" fill="#b5b5b5" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">State</tspan></text>
+          <path id="chevron-down-solid" d="M7.4,168.446a1.051,1.051,0,0,1-.746-.309L.314,161.8a1.056,1.056,0,1,1,1.493-1.493L7.4,165.9l5.589-5.589a1.056,1.056,0,1,1,1.493,1.493l-6.335,6.335A1.053,1.053,0,0,1,7.4,168.446Z" transform="translate(411.362 -93.972)" fill="#e0e0e0"/>
+        </g>
+      </g>
+      <g id="Group_74" data-name="Group 74" transform="translate(655.675 189.586)">
+        <text id="Number_Plate" data-name="Number Plate" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Number Plate</tspan></text>
+        <text id="BLF940-2" data-name="BLF940" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">BLF940</tspan></text>
+      </g>
+      <g id="Group_75" data-name="Group 75" transform="translate(655.675 287.061)">
+        <text id="Make" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Make</tspan></text>
+        <text id="Toyota" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Toyota</tspan></text>
+      </g>
+      <g id="Group_76" data-name="Group 76" transform="translate(894.675 384.535)">
+        <text id="Variant" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Variant</tspan></text>
+        <text id="GR" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">GR</tspan></text>
+      </g>
+      <g id="Group_78" data-name="Group 78" transform="translate(105.257 493.975)">
+        <rect id="Rectangle_114-3" data-name="Rectangle 114" width="441.486" height="59.06" rx="4" transform="translate(0 0)" fill="#a8d69f"/>
+      </g>
+      <path id="circle-check-solid" d="M0,16.009A16.009,16.009,0,1,1,16.009,32.018,16.008,16.008,0,0,1,0,16.009Zm23.251-2.764a1.751,1.751,0,0,0-2.476-2.476l-6.766,6.766-2.764-2.764a1.751,1.751,0,1,0-2.476,2.476l4,4a1.755,1.755,0,0,0,2.476,0Z" transform="translate(309.991 507.495)" fill="#fff"/>
+      <g id="Group_79" data-name="Group 79" transform="translate(894.675 189.586)">
+        <text id="State-2" data-name="State" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">State</tspan></text>
+        <text id="VIC-2" data-name="VIC" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">VIC</tspan></text>
+      </g>
+      <g id="Group_80" data-name="Group 80" transform="translate(894.675 287.061)">
+        <text id="Model" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Model</tspan></text>
+        <text id="Yaris" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Yaris</tspan></text>
+      </g>
+      <g id="Group_81" data-name="Group 81" transform="translate(894.675 482.01)">
+        <text id="Fuel_Type" data-name="Fuel Type" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Fuel Type</tspan></text>
+        <text id="Petrol" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Petrol</tspan></text>
+      </g>
+      <g id="Group_82" data-name="Group 82" transform="translate(655.675 482.01)">
+        <text id="Body_Type" data-name="Body Type" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Body Type</tspan></text>
+        <text id="Hatchback" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Hatchback</tspan></text>
+      </g>
+      <g id="Group_83" data-name="Group 83" transform="translate(655.675 384.535)">
+        <text id="Series" transform="translate(0 18)" fill="#b2b2b2" font-size="18" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="0">Series</tspan></text>
+        <text id="GXPA16R" transform="translate(0 50.587)" fill="#001f28" font-size="24" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">GXPA16R</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
