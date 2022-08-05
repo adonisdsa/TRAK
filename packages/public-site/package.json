@@ -1,5 +1,5 @@
 {
-  "name": "blueflag-api-website",
+  "name": "trak-website",
   "private": true,
   "description": "",
   "version": "1.0.0",
@@ -20,8 +20,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "yarn clean && yarn build-all && yarn deploy-to-s3 && yarn deploy-clear-cache",
-    "deploy-to-s3": "AWS_PROFILE=awsblueflagapi AWS_REGION=ap-southeast-2 gatsby-plugin-s3 deploy -y",
-    "deploy-clear-cache": "AWS_PROFILE=awsblueflagapi aws cloudfront create-invalidation --distribution-id E2B0KDVVGH4FN2 --paths \"/*\""
+    "deploy-to-s3": "AWS_PROFILE='INSERT_NAME_HERE' AWS_REGION=ap-southeast-2 gatsby-plugin-s3 deploy -y",
+    "deploy-clear-cache": "AWS_PROFILE='INSERT_NAME_HERE' aws cloudfront create-invalidation --distribution-id 'INSERT_ID' --paths \"/*\""
   },
   "dependencies": {
     "@aaronhayes/react-use-hubspot-form": "^1.1.0",

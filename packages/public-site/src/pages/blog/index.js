@@ -6,7 +6,7 @@ import Navigation from 'components/Navigation';
 import View from 'components/View';
 import Footer from 'components/Footer';
 
-import BlogHome from 'components/pages/blog';
+import BlogHome from 'components/pages/blog/blogPost';
 
 export default function Blog(props) {
     const posts = props.data.blog.edges.map(pp => pp.node);

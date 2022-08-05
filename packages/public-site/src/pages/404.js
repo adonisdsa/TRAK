@@ -15,7 +15,7 @@ export default function NotFound() {
         <View>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Uh Oh! | Blue Flag</title>
+                <title>Uh Oh! | TRAK</title>
                 <link rel="canonical" href="/404-not-found" />
             </Helmet>
             <Navigation hideCTA />

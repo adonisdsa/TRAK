@@ -9,7 +9,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faBracketsCurly } from '@fortawesome/pro-solid-svg-icons';
 import { faFileChartColumn, faDatabase } from '@fortawesome/pro-regular-svg-icons';
 
-import Trak from 'assets/images/trak.svg';
 import TrakLogo from 'assets/images/trakLogo.svg';
 
 export default function Navigation(props) {
@@ -19,14 +18,14 @@ export default function Navigation(props) {
         <section>
             <nav className="navBar">
                 <Link className="navBarLogo" to="/">
-                    <img src="/assets/logos/blueflag-logo.svg" alt="Blue Flag logo" width="156px" height="31px" />
+                    <img src="/assets/logos/trakLogo.png" alt="TRAK logo" width="156px" height="auto" />
                 </Link>
 
                 {!hideCTA && (
                     <>
                         <div className="navBar_Actions">
                             <div className="navBarLinks">
-                                <div className="navLink dropdown">
+                                {/* <div className="navLink dropdown">
                                     Products
                                     <div className="dropdownMenu">
                                         <div className="dropdownColumn">
@@ -185,17 +184,17 @@ export default function Navigation(props) {
                                 </Link>
 
                                 <Link className="navLink" to="/docs/">
-                                    Docs
-                                </Link>
+                                    Docss
+                                </Link> */}
 
-                                <a className="navLink" rel="nofollow" href="https://app.blueflag.com.au/">
-                                    Login
+                                <a className="navLink" rel="nofollow" href="/contact-us/">
+                                    Contact Us
                                 </a>
                             </div>
 
-                            <a className="navButton" href="https://app.blueflag.com.au/get-started">
-                                <Button type="outline" className="navGetStartedSignUp" href="https://app.blueflag.com.au/get-started">
-                                    Get Started <FontAwesomeIcon icon={faArrowRight} />
+                            <a className="navButton" href="/contact-us/">
+                                <Button type="outline" className="navGetStartedSignUp" href="/contact-us/">
+                                    Free Trial <FontAwesomeIcon icon={faArrowRight} />
                                 </Button>
                             </a>
                         </div>
@@ -272,7 +271,7 @@ export default function Navigation(props) {
 
                                     <div className="menuSection">
                                         <div className="columnheaderWrapper">
-                                        <FontAwesomeIcon icon={faFileChartColumn} />
+                                            <FontAwesomeIcon icon={faFileChartColumn} />
                                             <p className="columnHeader">Research & Reporting</p>
                                         </div>
                                         <div className="menuContainer">
@@ -319,7 +318,6 @@ export default function Navigation(props) {
                                             </div>
                                         </div>
                                     </div>
-
                                 </ul>
                             </div>
                         </nav>

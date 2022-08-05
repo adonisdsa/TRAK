@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faGithub, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faInstagram, faYoutube, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 import Container from 'components/layout/Container';
 import Section from 'components/layout/Section';
@@ -28,16 +28,16 @@ export default function Footer() {
                         <p>Legal</p>
                         <ul>
                             <li>
-                                <Link to="/blueflag-termsofuse/">Terms of Use</Link>
+                                <Link to="/terms-of-use/">Terms of Use</Link>
                             </li>
                             <li>
-                                <Link to="/blueflag-privacypolicy/">Privacy Policy</Link>
+                                <Link to="/privacy-policy/">Privacy Policy</Link>
                             </li>
                             {/* <li><Link to="/generalterms">General Terms</Link></li>
                             <li><Link to="/nevdisgeneralterms">NEVDIS General Terms</Link></li> */}
                         </ul>
                     </div>
-                    <div className="linkColumn">
+                    {/* <div className="linkColumn">
                         <p>Company</p>
                         <ul>
                             <li>
@@ -47,8 +47,8 @@ export default function Footer() {
                                 <Link to="/contact-us/">Contact Us</Link>
                             </li>
                         </ul>
-                    </div>
-                    <div className="linkColumn second">
+                    </div> */}
+                    {/* <div className="linkColumn second">
                         <p>Products</p>
                         <ul>
                             <li>
@@ -78,7 +78,7 @@ export default function Footer() {
                                 <Link to="/docs/">Docs</Link>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </Section>
             </Container>
 
@@ -90,17 +90,17 @@ export default function Footer() {
                 </Section>
                 <Section>
                     <div className="Footer-socials">
-                        <a href="https://twitter.com/blueflag" className="twitter" alt="twitter" aria-label="Twitter" rel="nofollow">
+                        <a href="https://twitter.com/traklms" className="twitter" alt="twitter" aria-label="Twitter" rel="nofollow">
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
-                        <a href="https://www.youtube.com/channel/UCRA7zwmdOJkK1GobgkJwZXQ" className="youtube" alt="youtube" aria-label="youtube" rel="nofollow">
+                        <a href="https://www.youtube.com/channel/UCuVgoHcf0cUx8kOtj5GqV4g" className="youtube" alt="youtube" aria-label="youtube" rel="nofollow">
                             <FontAwesomeIcon icon={faYoutube} />
                         </a>
-                        <a href="https://www.linkedin.com/company/blueflag" className="linkedin" alt="linkedin" aria-label="linkedin" rel="nofollow">
-                            <FontAwesomeIcon icon={faLinkedin} />
+                        <a href="https://www.facebook.com/TRAK.LMS/" className="facebook" alt="facebook" aria-label="facebook" rel="nofollow">
+                            <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <a href="https://github.com/blueflag" className="github" alt="github" aria-label="github" rel="nofollow">
-                            <FontAwesomeIcon icon={faGithub} />
+                        <a href="https://www.instagram.com/trak_lms/" className="github" alt="instagram" aria-label="instagram" rel="nofollow">
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
                 </Section>

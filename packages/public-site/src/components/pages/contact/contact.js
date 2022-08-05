@@ -6,16 +6,14 @@ import HubspotForm from 'react-hubspot-form';
 import Container from 'components/layout/Container';
 import Section from 'components/layout/Section';
 
-import CarNextDoorIcon from 'assets/images/CarNextDoor.png';
-import DingoIcon from 'assets/images/Dingo.png';
-import FamousIcon from 'assets/images/Famous.png';
-import HSYIcon from 'assets/images/HSY.png';
-import PicklesIcon from 'assets/images/Pickles.png';
-import TruckAssistIcon from 'assets/images/TruckAssist.png';
+import toyotaIcon from 'assets/images/toyotaBlack.png';
+import hyundaiIcon from 'assets/images/hyundaiBlack.png';
+import lexusIcon from 'assets/images/lexusBlack.png';
+import mitsubishiIcon from 'assets/images/mitsuBlack.png';
+import avidaIcon from 'assets/images/avidaBlack.png';
+import genesisIcon from 'assets/images/genesisBlack.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-// import { trackEvent } from 'utils/googleAnalytics'
 
 const Loader = (
     <div className="loader">
@@ -30,31 +28,31 @@ const Contact = () => {
                 <h1>Contact Sales</h1>
                 <h2 className="contact-description">Tell us how we can help and we’ll get in touch shortly.</h2>
 
-                <HubspotForm portalId="19517217" formId="19f834d4-1456-4242-9af8-0a863e0f6402" loading={Loader} />
+                <HubspotForm portalId="20814455" formId="56b03f05-8b9e-492e-ba34-182546e32cbd" loading={Loader} />
             </Section>
 
             <Section className="paddingX4">
-                <p className="Contact-clients-text paddingY5">Join the other innovators that are already building with Blue Flag.</p>
+                <p className="Contact-clients-text paddingY5">Want to get in touch? We'd love to hear from you.</p>
 
                 <div className="contact-grid">
                     <div className="cell">
-                        <img src={CarNextDoorIcon} alt="Flipacar logo" />
+                        <img src={toyotaIcon} alt="Toyota logo" />
                     </div>
                     <div className="cell">
-                        <img src={DingoIcon} alt="Macquarie logo" />
+                        <img src={hyundaiIcon} alt="Hyundai logo" />
                     </div>
                     <div className="cell">
-                        <img src={FamousIcon} alt="Hyundai logo" />
+                        <img src={lexusIcon} alt="Lexus logo" />
                     </div>
 
                     <div className="cell">
-                        <img src={HSYIcon} alt="AutoInfo logo" />
+                        <img src={mitsubishiIcon} alt="Mitsubishi logo" />
                     </div>
                     <div className="cell">
-                        <img src={PicklesIcon} alt="Toyota logo" />
+                        <img src={avidaIcon} alt="Avida logo" />
                     </div>
                     <div className="cell">
-                        <img src={TruckAssistIcon} alt="Cinix1 logo" />
+                        <img src={genesisIcon} alt="Genesis logo" />
                     </div>
                 </div>
             </Section>

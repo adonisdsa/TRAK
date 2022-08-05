@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-        title: `Blue Flag | Vehicle Data Platform`,
-        siteUrl: 'https://blueflag.com.au',
-        description: `Access to vehicle data, made simple`,
-        author: `Blue Flag`,
+        title: `TRAK | Learning Management System`,
+        siteUrl: 'https://traklms.com',
+        description: `Measurably faster at onboarding and upskilling your teams.`,
+        author: `TRAK`,
     },
     plugins: [
         `gatsby-plugin-preload-fonts`,
@@ -37,8 +37,8 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-robots-txt',
             options: {
-                host: 'https://blueflag.com.au',
-                sitemap: 'https://blueflag.com.au/sitemap.xml',
+                host: 'https://traklms.com',
+                sitemap: 'https://traklms.com/sitemap.xml',
                 policy: [
                     {
                         userAgent: '*',
@@ -136,8 +136,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Blue Flag`,
-                short_name: `Blue Flag`,
+                name: `TRAK`,
+                short_name: `TRAK`,
                 start_url: `/`,
                 background_color: `#002028`,
                 theme_color: `#05BEFF`,
@@ -163,7 +163,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-hubspot',
             options: {
-                trackingCode: '19517217',
+                trackingCode: '20814455',
                 respectDNT: false,
                 productionOnly: true,
             },
